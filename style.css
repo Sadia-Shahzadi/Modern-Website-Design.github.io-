@@ -1,0 +1,91 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+/* Custom CSS  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+}
+nav{
+    padding: 2% 5%;
+    display: flex;
+}
+nav h1{
+    color: white;
+    font-size: 39px;
+    cursor: pointer;
+}
+nav h1 span{
+    color: #ff7657;
+}
+nav ul{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px 15px;
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: #ff7657;
+}
+nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #ff7657;
+    transition: .5s;
+    display: block;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.head-flex{
+    display: flex;
+    margin: 5% 5%;
+}
+.head{
+    padding-top: 5%;
+}
+.head h1{
+    color: #ff7657;
+    font-size: 42px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.head p{
+    font-size: 17px;
+    color: #787878;
+    padding-right: 40px;
+    line-height: 26px;
+    padding-bottom: 25px;
+}
+button{
+    margin-top: 7%;
+    padding: 12px 40px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: linear-gradient(110deg, #ff7657 40%, #010718d3 60%);
+    color: white;
+}
+.image img{
+    width: 100%;
+}
